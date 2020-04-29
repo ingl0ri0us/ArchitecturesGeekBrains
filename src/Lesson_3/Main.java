@@ -1,7 +1,7 @@
 package Lesson_3;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void lesson3_main(String[] args) {
         NutritionFacts cocaCola = new NutritionFacts
                 .Builder("Coca-Cola", 240, 8)
                 .calories(100)
