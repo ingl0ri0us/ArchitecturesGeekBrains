@@ -1,7 +1,7 @@
 package Lesson_4;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void lesson4_main(String[] args) {
         Beverage beverage1 = new Espresso();
         System.out.println(beverage1.getDescription() + " $" + beverage1.cost());
 
