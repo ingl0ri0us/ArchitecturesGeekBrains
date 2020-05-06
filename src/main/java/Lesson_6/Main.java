@@ -15,7 +15,7 @@ public class Main {
     private static final CoinsDB DATA_MAPPER = new CoinsDBImpl();
 
 
-    public static void main(String[] args) {
+    public static void lesson6_main(String[] args) {
         Connection connection = Connect.getConnection();
 
         DbObjects.createTable(connection);
